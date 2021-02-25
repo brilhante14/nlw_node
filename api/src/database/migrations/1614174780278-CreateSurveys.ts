@@ -31,7 +31,7 @@ export class CreateSurveys1614174780278 implements MigrationInterface {
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
-        await queryRunner.dropTable("surveys")
+        await queryRunner.dropTable("surveys");
     }
 
 }
